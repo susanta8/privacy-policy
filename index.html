@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy - Mindara AI</title>
+    <style>
+        body { 
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; 
+            line-height: 1.6; 
+            max-width: 800px; 
+            margin: 0 auto; 
+            padding: 20px; 
+            color: #333; 
+        }
+        h1, h2 { color: #2D4A6B; border-bottom: 1px solid #eee; padding-bottom: 5px;}
+        h3 { color: #444; margin-top: 20px; }
+        ul { margin-bottom: 20px; }
+        p { margin-bottom: 15px; }
+        code { background: #f4f4f4; padding: 2px 5px; border-radius: 4px; }
+        .highlight { background: #eef2f5; padding: 15px; border-left: 4px solid #2D4A6B; border-radius: 4px; }
+    </style>
+</head>
+<body>
+    <h1>Privacy Policy</h1>
+    <p><strong>Last Updated:</strong> March 13, 2026</p>
+
+    <p>This Privacy Policy explains how Mindara AI ("we", "our", or "us") collects, uses, and protects your information when you use our mobile application (Package Name: <code>com.darkxuv7007.onspaceapp</code>) and related services.</p>
+
+    <h2>1. Our Core Philosophy: Your Mind is Private</h2>
+    <p>At Mindara AI, our mission is to be your private second brain. We believe that your thoughts, ideas, and captured inspirations belong strictly to you.</p>
+    <p class="highlight"><strong>Our fundamental promise to you is simple: No ads. No hidden tracking. No selling your data. Ever.</strong></p>
+
+    <h2>2. Information We Collect & Device Permissions</h2>
+    <p>To provide our "Zero Friction" Universal Capture System, our app requests specific device permissions. We only collect data that is explicitly saved by you.</p>
+    
+    <h3>A. Account Information</h3>
+    <ul>
+        <li><strong>Email Address:</strong> If registering via email.</li>
+        <li><strong>Name & Profile Picture:</strong> If registering via Google or GitHub OAuth.</li>
+        <li><strong>Authentication Tokens:</strong> Securely managed via our backend provider.</li>
+    </ul>
+
+    <h3>B. Your Captured Content (Your "Mind")</h3>
+    <ul>
+        <li>Text snippets, notes, and ideas you type or copy.</li>
+        <li>URLs and links you share to the app.</li>
+        <li>Images, screenshots, and files (like PDFs) you choose to save.</li>
+        <li>Tags, folder structures, and metadata associated with your content.</li>
+    </ul>
+
+    <h3>C. OS-Level Captures & Required Permissions</h3>
+    <ul>
+        <li><strong>Clipboard Detection:</strong> The app monitors the device clipboard locally to automatically detect copied text and links, allowing the user to quickly save them as cards. Clipboard data is only captured and processed when explicitly initiated by the user.</li>
+        <li><strong>Floating Capture Bubble (Overlay):</strong> The app utilizes the SYSTEM_ALERT_WINDOW (Overlay) permission to display a floating capture button over other apps, enabling seamless saving without interrupting the user's current workflow.</li>
+        <li><strong>Screenshot & Media Detection (Storage/Media Access):</strong> The app observes local media directories to detect new screenshots, allowing the app to prompt the user to save them directly to their personal workspace. Images are only uploaded if the user confirms the save action.</li>
+        <li><strong>Share Intent:</strong> Content shared from other apps directly into Mindara is processed and saved to your private database.</li>
+    </ul>
+
+    <h2>3. How We Use Your Information</h2>
+    <p>We use your data <strong>exclusively</strong> to provide and improve the Mindara experience:</p>
+    <ul>
+        <li><strong>Sync & Storage:</strong> To securely sync your second brain across your devices.</li>
+        <li><strong>Smart Categorization:</strong> To automatically extract metadata (like reading time, website titles, and AI summaries) from the links and content you save.</li>
+        <li><strong>Authentication:</strong> To securely log you into your account.</li>
+        <li><strong>Customer Support:</strong> To assist you if you encounter technical issues.</li>
+    </ul>
+    
+    <p><strong>We do NOT:</strong></p>
+    <ul>
+        <li>Sell your personal data or captured content to data brokers.</li>
+        <li>Serve targeted advertisements based on your content.</li>
+        <li>Use your private notes or content to train public AI models.</li>
+    </ul>
+
+    <h2>4. Third-Party Services We Use</h2>
+    <p>To operate our application securely and reliably, we use trusted infrastructure providers:</p>
+    <ul>
+        <li><strong>Supabase:</strong> We use Supabase as our secure backend infrastructure. Your account data, authentication, and captured content (including files and images) are stored securely in Supabase databases and storage buckets.</li>
+        <li><strong>Authentication Providers:</strong> If you choose to sign in via Google or GitHub, we receive basic profile information to create your account. We do not have access to your social media or developer accounts beyond this scope.</li>
+        <li><strong>AI Metadata Processing:</strong> When you save a URL or request a summary, the content may be temporarily processed by serverless functions to extract metadata. This data is processed transiently and is not used to train the underlying models.</li>
+    </ul>
+
+    <h2>5. Data Storage and Security</h2>
+    <p>Your data is stored securely in the cloud. We use industry-standard encryption for data in transit (HTTPS/TLS) and data at rest.</p>
+    <p>Mindara is designed with an <strong>Offline-First Architecture</strong>. If you capture content without an internet connection, it is stored locally on your device in secure asynchronous storage and automatically synced to your private cloud database once a connection is restored.</p>
+
+    <h2>6. Your Data Rights & Deletion</h2>
+    <p>You maintain complete ownership of your data. You have full control over your information and can delete individual cards or request the complete deletion of your account and all associated data directly within the app settings at any time.</p>
+
+    <h2>7. Contact Us</h2>
+    <p>If you have any questions about this Privacy Policy, please contact us at: support@onspaceapp.com.</p>
+</body>
+</html>
